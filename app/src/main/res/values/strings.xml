@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">CA1_20091</string>    >
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Tea1">Darjelling </string>
+    <string name="Tea2">Assam</string>
+    <string name="Tea3">Lapsang </string>
+    <string name="Tea4">Earl Grey</string>
+    <string name="Tea5">Irish Breakfast</string>
+
 
     <string name="game_over">Game Over</string>
     <string name="try_again">Try Again?</string>

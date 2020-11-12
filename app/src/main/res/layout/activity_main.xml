@@ -8,10 +8,13 @@
         android:orientation="vertical">
 
         <fragment
-            android:id="@+id/landingFragment"
-            android:name="com.example.ca1_20091.landing.LandingFragment"
+            android:id="@+id/NavHostFragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            app:navGraph="@navigation/navigation"
+            app:defaultNavHost="true" />
+        <!--android:name="com.example.ca1_20091.landing.LandingFragment"-->
     </LinearLayout>
 
 </layout>
