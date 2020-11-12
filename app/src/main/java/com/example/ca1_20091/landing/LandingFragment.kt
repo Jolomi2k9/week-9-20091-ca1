@@ -29,16 +29,16 @@ class LandingFragment : Fragment() {
             view.findNavController().navigate(R.id.action_landingFragment2_to_productFragment2)}
 
         binding.assam.setOnClickListener{view : View ->
-            view.findNavController().navigate(R.id.action_landingFragment2_to_productFragment2)}
+            view.findNavController().navigate(R.id.action_landingFragment2_to_productFragment3)}
 
         binding.darjelling.setOnClickListener{view : View ->
-            view.findNavController().navigate(R.id.action_landingFragment2_to_productFragment2)}
+            view.findNavController().navigate(R.id.action_landingFragment2_to_productFragment4)}
 
         binding.irishBreakfast.setOnClickListener{view : View ->
-            view.findNavController().navigate(R.id.action_landingFragment2_to_productFragment2)}
+            view.findNavController().navigate(R.id.action_landingFragment2_to_productFragment5)}
 
         binding.earlGrey.setOnClickListener{view : View ->
-            view.findNavController().navigate(R.id.action_landingFragment2_to_productFragment2)}
+            view.findNavController().navigate(R.id.action_landingFragment2_to_productFragment22)}
 
         return binding.root
     }
