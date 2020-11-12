@@ -13,7 +13,7 @@ import com.example.ca1_20091.databinding.FragmentLandingBinding
 
 class LandingFragment : Fragment() {
 
-
+    private var teaType = 0
 
 
     override fun onCreateView(
@@ -24,7 +24,8 @@ class LandingFragment : Fragment() {
         val binding = DataBindingUtil.inflate<FragmentLandingBinding>(inflater,
             R.layout.fragment_landing,container,false)
 
-        binding.lapsang.setOnClickListener{view : View ->
+        binding.lapsang.setOnClickListener{
+                view : View ->
             view.findNavController().navigate(R.id.action_landingFragment2_to_productFragment2)}
 
         binding.assam.setOnClickListener{view : View ->

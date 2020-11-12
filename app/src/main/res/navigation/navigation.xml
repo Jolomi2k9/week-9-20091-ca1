@@ -17,15 +17,66 @@
         <action
             android:id="@+id/action_landingFragment2_to_productFragment2"
             app:destination="@id/productFragment2" />
+        <argument
+            android:name="teaType"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_landingFragment2_to_productFragment4"
+            app:destination="@id/productFragment4" />
+        <action
+            android:id="@+id/action_landingFragment2_to_productFragment22"
+            app:destination="@id/productFragment22" />
+        <action
+            android:id="@+id/action_landingFragment2_to_productFragment3"
+            app:destination="@id/productFragment3" />
+        <action
+            android:id="@+id/action_landingFragment2_to_productFragment5"
+            app:destination="@id/productFragment5" />
     </fragment>
     <fragment
         android:id="@+id/productFragment2"
         android:name="com.example.ca1_20091.product.ProductFragment"
         android:label="ProductFragment"
-        tools:layout="@layout/fragment_product"/>
+        tools:layout="@layout/fragment_product">
+        <action
+            android:id="@+id/action_productFragment2_to_cartFragment2"
+            app:destination="@id/cartFragment2" />
+    </fragment>
     <fragment
         android:id="@+id/cartFragment2"
         android:name="com.example.ca1_20091.cart.CartFragment"
         android:label="CartFragment"
         tools:layout="@layout/fragment_cart"/>
+    <fragment
+        android:id="@+id/productFragment5"
+        android:name="com.example.ca1_20091.product.ProductFragment5"
+        android:label="ProductFragment5" >
+        <action
+            android:id="@+id/action_productFragment5_to_cartFragment2"
+            app:destination="@id/cartFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/productFragment22"
+        android:name="com.example.ca1_20091.product.ProductFragment2"
+        android:label="ProductFragment2" >
+        <action
+            android:id="@+id/action_productFragment22_to_cartFragment2"
+            app:destination="@id/cartFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/productFragment3"
+        android:name="com.example.ca1_20091.product.ProductFragment3"
+        android:label="ProductFragment3" >
+        <action
+            android:id="@+id/action_productFragment3_to_cartFragment2"
+            app:destination="@id/cartFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/productFragment4"
+        android:name="com.example.ca1_20091.product.ProductFragment4"
+        android:label="ProductFragment4" >
+        <action
+            android:id="@+id/action_productFragment4_to_cartFragment2"
+            app:destination="@id/cartFragment2" />
+    </fragment>
 </navigation>
