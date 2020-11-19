@@ -41,6 +41,9 @@
         <action
             android:id="@+id/action_productFragment2_to_cartFragment2"
             app:destination="@id/cartFragment2" />
+        <argument
+            android:name="teaType"
+            app:argType="integer" />
     </fragment>
     <fragment
         android:id="@+id/cartFragment2"
